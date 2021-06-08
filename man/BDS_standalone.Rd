@@ -12,7 +12,7 @@ BDS_standalone(
   with_welcome = TRUE,
   admin_password = "conifer",
   researcher_email = "longgold@gold.uc.ak",
-  languages = c("EN", "DE"),
+  languages = c("en", "de"),
   dict = BDS::BDS_dict,
   validate_id = "auto",
   ...

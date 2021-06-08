@@ -1,7 +1,7 @@
 Package: BDS
 Type: Package
 Title: Backward Digit Span
-Version: 0.1.0
+Version: 0.1.1
 Author: Klaus Frieler
 Maintainer: Klaus Frieler <kf@omniversum.de>
 Description: Implementation of backward digit span test.
@@ -11,7 +11,7 @@ LazyData: true
 Depends: 
     R (>= 3.5.0),
 Imports:
-    psychTestR (>= 2.4.3),
+    psychTestR (>= 2.21.2),
     shiny (>= 1.2.0),
     methods,
     htmltools (>= 0.3.6),
@@ -23,4 +23,4 @@ Suggests:
     codetools,
     devtools (>= 1.13.6)
 Remotes: pmcharrison/psychTestR
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
