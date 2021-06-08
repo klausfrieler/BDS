@@ -24,7 +24,8 @@ BDS_feedback_with_score <- function(dict = BDS::BDS_dict) {
                                                    num_correct = num_correct))
         psychTestR::page(
           ui = shiny::div(
-            shiny::p(text_finish)
+            shiny::p(text_finish),
+            shiny::p(psychTestR::trigger_button("next", psychTestR::i18n("CONTINUE")))
           )
         )
       }
@@ -82,7 +83,8 @@ BDS_feedback_with_graph <- function(dict = BDS::BDS_dict) {
         psychTestR::page(
           ui = shiny::div(
             shiny::p(text_finish),
-            shiny::p(norm_plot)
+            shiny::p(norm_plot),
+            shiny::p(psychTestR::trigger_button("next", psychTestR::i18n("CONTINUE")))
           )
         )
       }

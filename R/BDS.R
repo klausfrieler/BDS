@@ -31,7 +31,7 @@ BDS <- function(num_items = 18L,
                 with_training = TRUE,
                 with_finish = TRUE,
                 label = "BDS",
-                feedback = BDS_feedback_with_score(),
+                feedback = NULL,
                 dict = BDS::BDS_dict) {
   stopifnot(purrr::is_scalar_character(label),
             purrr::is_scalar_integer(num_items) || purrr::is_scalar_double(num_items),
