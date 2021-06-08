@@ -1,4 +1,4 @@
-source("R/BDS.R")
+#source("R/BDS.R")
 options(shiny.error = browser)
 debug_locally <- !grepl("shiny-server", getwd())
 

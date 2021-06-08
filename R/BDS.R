@@ -1,10 +1,10 @@
-library(tidyverse)
-library(psychTestR)
-source("R/options.R")
-source("R/main_test.R")
-source("R/item_page.R")
-source("R/feedback.R")
-source("R/utils.R")
+# library(tidyverse)
+# library(psychTestR)
+# source("R/options.R")
+# source("R/main_test.R")
+# source("R/item_page.R")
+# source("R/feedback.R")
+# source("R/utils.R")
 
 
 #' BDS
@@ -23,7 +23,7 @@ source("R/utils.R")
 #' @param with_finish (Logical scalar) Whether to show a finished page.
 #' @param label (Character scalar) Label to give the BDS results in the output file.
 #' @param feedback (Function) Defines the feedback to give the participant
-#' at the end of the test.
+#' at the end of the test. If NULL (default) no feedback will be provided.
 #' @param dict The psychTestR dictionary used for internationalisation.
 #' @export
 BDS <- function(num_items = 18L,

@@ -10,7 +10,7 @@ BDS(
   with_training = TRUE,
   with_finish = TRUE,
   label = "BDS",
-  feedback = BDS_feedback_with_score(),
+  feedback = NULL,
   dict = BDS::BDS_dict
 )
 }
@@ -26,7 +26,7 @@ BDS(
 \item{label}{(Character scalar) Label to give the BDS results in the output file.}
 
 \item{feedback}{(Function) Defines the feedback to give the participant
-at the end of the test.}
+at the end of the test. If NULL (default) no feedback will be provided.}
 
 \item{dict}{The psychTestR dictionary used for internationalisation.}
 }
