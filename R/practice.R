@@ -1,5 +1,5 @@
 practice <- function() {
-  message("Added practice pages")
+  #message("Added practice pages")
   ret <- psychTestR::one_button_page(body = shiny::div(
     psychTestR::i18n("INSTRUCTIONS"),
     style = "margin-left:15%; margin-right:15%;margin-bottom:20px;text-align:justify"),
